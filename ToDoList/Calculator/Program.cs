@@ -11,7 +11,7 @@ int number2 = int.Parse(Console.ReadLine());
 
 Console.WriteLine("What do you want to do with those numbers ?");
 Console.WriteLine("[A]dd");
-Console.WriteLine("[S]ubstract");
+Console.WriteLine("[S]ubtract");
 Console.WriteLine("[M]ultiply");
 string choice = Console.ReadLine().ToUpper();
 
@@ -35,5 +35,5 @@ else
 }
 
 Console.WriteLine("Press any key to close");
-var close = Console.ReadLine();
+var close = Console.ReadKey();
 return;
