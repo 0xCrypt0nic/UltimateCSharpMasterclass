@@ -34,3 +34,13 @@ var isEven = 10 % 2 == 0;
 var isLargerThan4andSmallerThan9 = number > 4 && number < 9;
 var isEqualTo2OrLargerThan6OrSmallerThan200 = number == 6 || number > 6 || number < 200;
 var isEqualTo123OrEvenAndSmallerThan20 = number == 123 || (number % 2 == 0 && number < 20);
+
+// IF / ELSE Statements
+if (userChoice.Equals("ABC"))
+{
+    Console.WriteLine("User typed ABC");
+}
+else
+{
+    Console.WriteLine("Nope");
+}
