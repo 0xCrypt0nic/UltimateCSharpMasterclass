@@ -1,0 +1,15 @@
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/bin/Debug/net10.0/Calculator
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/bin/Debug/net10.0/Calculator.deps.json
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/bin/Debug/net10.0/Calculator.runtimeconfig.json
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/bin/Debug/net10.0/Calculator.dll
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/bin/Debug/net10.0/Calculator.pdb
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/obj/Debug/net10.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/obj/Debug/net10.0/Calculator.AssemblyInfoInputs.cache
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/obj/Debug/net10.0/Calculator.AssemblyInfo.cs
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/obj/Debug/net10.0/Calculator.csproj.CoreCompileInputs.cache
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/obj/Debug/net10.0/Calculator.sourcelink.json
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/obj/Debug/net10.0/Calculator.dll
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/obj/Debug/net10.0/refint/Calculator.dll
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/obj/Debug/net10.0/Calculator.pdb
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/obj/Debug/net10.0/Calculator.genruntimeconfig.cache
+/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/Calculator/obj/Debug/net10.0/ref/Calculator.dll
