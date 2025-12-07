@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ngdev/Training/UCM/ToDoList/ToDoList/ToDoList.csproj": {}
+    "/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/ToDoList/ToDoList.csproj": {}
   },
   "projects": {
-    "/Users/ngdev/Training/UCM/ToDoList/ToDoList/ToDoList.csproj": {
+    "/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/ToDoList/ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ngdev/Training/UCM/ToDoList/ToDoList/ToDoList.csproj",
+        "projectUniqueName": "/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/ToDoList/ToDoList.csproj",
         "projectName": "ToDoList",
-        "projectPath": "/Users/ngdev/Training/UCM/ToDoList/ToDoList/ToDoList.csproj",
+        "projectPath": "/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/ToDoList/ToDoList.csproj",
         "packagesPath": "/Users/ngdev/.nuget/packages/",
-        "outputPath": "/Users/ngdev/Training/UCM/ToDoList/ToDoList/obj/",
+        "outputPath": "/Users/ngdev/Training/UltimateCSharpMasterclass/ToDoList/ToDoList/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ngdev/.nuget/NuGet/NuGet.Config"

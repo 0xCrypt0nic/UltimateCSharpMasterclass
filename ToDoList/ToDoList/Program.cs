@@ -6,3 +6,7 @@ Console.WriteLine("[E]xit");
 
 string userChoice = Console.ReadLine();
 Console.WriteLine($"User input: {userChoice}");
+//todo: handle user's input.
+/*
+This is a multiple line comment.
+*/
