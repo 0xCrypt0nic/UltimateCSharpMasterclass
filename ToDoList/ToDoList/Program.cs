@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Hello !");
+﻿using System.ComponentModel;
+
+Console.WriteLine("Hello !");
 Console.WriteLine("[S]ee all TODOs");
 Console.WriteLine("[A]dd a TODO");
 Console.WriteLine("[R]emove a TODO");
@@ -27,3 +29,8 @@ var isSmallerOrEqualTo6 = number <= 6;
 
 var is10Modulo3EqualTo1 = 10 % 3 == 1;
 var isEven = 10 % 2 == 0;
+
+// AND and OR Operator
+var isLargerThan4andSmallerThan9 = number > 4 && number < 9;
+var isEqualTo2OrLargerThan6OrSmallerThan200 = number == 6 || number > 6 || number < 200;
+var isEqualTo123OrEvenAndSmallerThan20 = number == 123 || (number % 2 == 0 && number < 20);
