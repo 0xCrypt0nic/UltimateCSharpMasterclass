@@ -47,25 +47,33 @@ This is a multiple line comment.
 // }
 // 
 
-if (userChoice.Equals("S"))
+// if (userChoice.Equals("S"))
+// {
+//     PrintSelectedOption("See all TODOs");
+// }
+// else if (userChoice.Equals("A"))
+// {
+//     PrintSelectedOption("Add a TODO");
+// }
+// else if (userChoice.Equals("R"))
+// {
+//     PrintSelectedOption("Remove a TODO");
+// }
+// else if (userChoice.Equals("E"))
+// {
+//     PrintSelectedOption("Exit");
+// }
+// 
+// 
+// void PrintSelectedOption(string selectedOption)
+// {
+//     Console.WriteLine($"Selected option: {selectedOption}");
+// }
+
+int Add(int a, int b)
 {
-    PrintSelectedOption("See all TODOs");
-}
-else if (userChoice.Equals("A"))
-{
-    PrintSelectedOption("Add a TODO");
-}
-else if (userChoice.Equals("R"))
-{
-    PrintSelectedOption("Remove a TODO");
-}
-else if (userChoice.Equals("E"))
-{
-    PrintSelectedOption("Exit");
+    return a + b;
 }
 
+Console.WriteLine($"10 + 5 = {Add(10, 5)}");
 
-void PrintSelectedOption(string selectedOption)
-{
-    Console.WriteLine($"Selected option: {selectedOption}");
-}
