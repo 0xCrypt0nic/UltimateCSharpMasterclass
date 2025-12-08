@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System.Collections;
+using System.ComponentModel;
 
 Console.WriteLine("Hello !");
 Console.WriteLine("[S]ee all TODOs");
@@ -47,21 +48,23 @@ This is a multiple line comment.
 // }
 // 
 
-// if (userChoice.Equals("S"))
+// switch (userChoice.ToUpper())
 // {
-//     PrintSelectedOption("See all TODOs");
-// }
-// else if (userChoice.Equals("A"))
-// {
-//     PrintSelectedOption("Add a TODO");
-// }
-// else if (userChoice.Equals("R"))
-// {
-//     PrintSelectedOption("Remove a TODO");
-// }
-// else if (userChoice.Equals("E"))
-// {
-//     PrintSelectedOption("Exit");
+//     case "S":
+//         PrintSelectedOption("See all TODOs");
+//         break;
+//     case "A":
+//         PrintSelectedOption("Add a TODO");
+//         break;
+//     case "R":
+//         PrintSelectedOption("Remove a TODO");
+//         break;
+//     case "E":
+//         PrintSelectedOption("Exit");
+//         break;
+//     default:
+//         Console.WriteLine("Invalid choice");
+//         break;
 // }
 // 
 // 
@@ -69,11 +72,56 @@ This is a multiple line comment.
 // {
 //     Console.WriteLine($"Selected option: {selectedOption}");
 // }
+// 
 
-int Add(int a, int b)
-{
-    return a + b;
-}
+// 
+// int Add(int a, int b)
+// 
+//    return a + b;
+// 
+// 
+// Console.WriteLine($"10 + 5 = {Add(10, 5)}");
+// 
 
-Console.WriteLine($"10 + 5 = {Add(10, 5)}");
+
+
+// Switch Statement :
+// char ConvertPointsToGrade(int points)
+// 
+//    switch (points)
+//    {
+//        case 10:
+//        case 9:
+//            return 'A';
+//        case 8:
+//        case 7:
+//        case 6:
+//            return 'B';
+//        case 5:
+//        case 4:
+//        case 3:
+//            return 'C';
+//        case 2:
+//        case 1:
+//            return 'D';
+//        case 0:
+//            return 'E';
+//        default:
+//            return '!';
+//    }
+// 
+
+// Switch Expression
+// char ConvertPointsToGrade(int points)
+// {
+//     return points switch
+//     {
+//         10 or 9 => 'A',
+//         8 or 7 or 6 => 'B',
+//         5 or 4 or 3 => 'C',
+//         2 or 1 => 'D',
+//         0 => 'E',
+//         _ => '!'
+//     };
+// }
 
