@@ -1,14 +1,25 @@
-﻿using System.Collections;
-using System.ComponentModel;
+﻿int number = 0;
 
-Console.WriteLine("Hello !");
-Console.WriteLine("[S]ee all TODOs");
-Console.WriteLine("[A]dd a TODO");
-Console.WriteLine("[R]emove a TODO");
-Console.WriteLine("[E]xit");
+while (number < 10)
+{
+    number++;
+    Console.WriteLine($"Number is {number}");
+}
 
-string userChoice = Console.ReadLine();
+Console.WriteLine("The loop is finished");
 
+Console.ReadKey();
+
+
+// 
+// Console.WriteLine("Hello !");
+// Console.WriteLine("[S]ee all TODOs");
+// Console.WriteLine("[A]dd a TODO");
+// Console.WriteLine("[R]emove a TODO");
+// Console.WriteLine("[E]xit");
+// 
+// string userChoice = Console.ReadLine();
+// 
 // Console.WriteLine($"User input: {userChoice}");
 
 //todo: handle user's input.
@@ -48,31 +59,31 @@ This is a multiple line comment.
 // }
 // 
 
-// switch (userChoice.ToUpper())
-// {
-//     case "S":
-//         PrintSelectedOption("See all TODOs");
-//         break;
-//     case "A":
-//         PrintSelectedOption("Add a TODO");
-//         break;
-//     case "R":
-//         PrintSelectedOption("Remove a TODO");
-//         break;
-//     case "E":
-//         PrintSelectedOption("Exit");
-//         break;
-//     default:
-//         Console.WriteLine("Invalid choice");
-//         break;
-// }
-// 
-// 
-// void PrintSelectedOption(string selectedOption)
-// {
-//     Console.WriteLine($"Selected option: {selectedOption}");
-// }
-// 
+//  switch (userChoice.ToUpper())
+//  {
+//      case "S":
+//          PrintSelectedOption("See all TODOs");
+//          break;
+//      case "A":
+//          PrintSelectedOption("Add a TODO");
+//          break;
+//      case "R":
+//          PrintSelectedOption("Remove a TODO");
+//          break;
+//      case "E":
+//          PrintSelectedOption("Exit");
+//          break;
+//      default:
+//          Console.WriteLine("Invalid choice");
+//          break;
+//  }
+//  
+//  
+//  void PrintSelectedOption(string selectedOption)
+//  {
+//      Console.WriteLine($"Selected option: {selectedOption}");
+//  }
+//  
 
 // 
 // int Add(int a, int b)
