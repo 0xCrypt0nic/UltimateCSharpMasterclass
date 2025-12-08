@@ -1,19 +1,51 @@
 ﻿// int number = 0;
 // 
+
+// WHILE LOOP
+
 // while (number < 10)
 // {
 //     number++;
 //     Console.WriteLine($"Number is {number}");
 // }
 
-string word;
+// DO WHILE LOOP 
+
+// string word;
+// do
+// {
+//     Console.WriteLine("Enter a word longer than 10 letters");
+//     word = Console.ReadLine();
+// } while (word.Length <= 10);
+// 
+// Console.WriteLine("The loop is finished");
+
+// for (int i = 0; i < 5; i++)
+// {
+//     Console.WriteLine("Hello");
+// }
+
+int userNumber;
+
 do
 {
-    Console.WriteLine("Enter a word longer than 10 letters");
-    word = Console.ReadLine();
-} while (word.Length <= 10);
+    Console.WriteLine("Enter a number larger than 10:");
+    var userInput = Console.ReadLine();
 
-Console.WriteLine("The loop is finished");
+    if (userInput == "stop")
+    {
+        break;
+    }
+
+    bool isParsableToInt = userInput.All(char.IsDigit);
+    if (!isParsableToInt)
+    {
+        userNumber = 0;
+        continue;
+    }
+
+    userNumber = int.Parse(userInput);
+} while (userNumber <= 10);
 
 Console.ReadKey();
 
