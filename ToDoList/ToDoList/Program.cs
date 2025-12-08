@@ -1,10 +1,17 @@
-﻿int number = 0;
+﻿// int number = 0;
+// 
+// while (number < 10)
+// {
+//     number++;
+//     Console.WriteLine($"Number is {number}");
+// }
 
-while (number < 10)
+string word;
+do
 {
-    number++;
-    Console.WriteLine($"Number is {number}");
-}
+    Console.WriteLine("Enter a word longer than 10 letters");
+    word = Console.ReadLine();
+} while (word.Length <= 10);
 
 Console.WriteLine("The loop is finished");
 
