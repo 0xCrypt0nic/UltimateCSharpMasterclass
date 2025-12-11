@@ -24,28 +24,47 @@
 // {
 //     Console.WriteLine("Hello");
 // }
+// 
+// int userNumber;
+// 
+// do
+// {
+//     Console.WriteLine("Enter a number larger than 10:");
+//     var userInput = Console.ReadLine();
+// 
+//     if (userInput == "stop")
+//     {
+//         break;
+//     }
+// 
+//     bool isParsableToInt = userInput.All(char.IsDigit);
+//     if (!isParsableToInt)
+//     {
+//         userNumber = 0;
+//         continue;
+//     }
+// 
+//     userNumber = int.Parse(userInput);
+// } while (userNumber <= 10);
+// 
 
-int userNumber;
+// ARRAYS
+int[] numbers = new int[3];
+Console.WriteLine($"Array size : {numbers.Length}");
+Console.WriteLine($"Value in position 0 : {numbers[0]}");
+Console.WriteLine($"Value in position 1 : {numbers[1]}");
+Console.WriteLine($"Value in position 2 : {numbers[2]}");
 
-do
-{
-    Console.WriteLine("Enter a number larger than 10:");
-    var userInput = Console.ReadLine();
+numbers[0] = 35;
+numbers[1] = 44;
+numbers[2] = 68;
 
-    if (userInput == "stop")
-    {
-        break;
-    }
+Console.WriteLine($"Value in position 0 : {numbers[0]}");
+Console.WriteLine($"Value in position 1 : {numbers[1]}");
+Console.WriteLine($"Value in position 2 : {numbers[2]}");
 
-    bool isParsableToInt = userInput.All(char.IsDigit);
-    if (!isParsableToInt)
-    {
-        userNumber = 0;
-        continue;
-    }
+Console.WriteLine($"Print the value before the last value of array : Length - 2 : ^2 : {numbers[^2]}");
 
-    userNumber = int.Parse(userInput);
-} while (userNumber <= 10);
 
 Console.ReadKey();
 
