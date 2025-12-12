@@ -49,6 +49,9 @@
 // 
 
 // ARRAYS
+using System.Globalization;
+using System.Security.Cryptography.X509Certificates;
+
 int[] numbers = new int[3];
 Console.WriteLine($"Array size : {numbers.Length}");
 Console.WriteLine($"Value in position 0 : {numbers[0]}");
@@ -65,8 +68,26 @@ Console.WriteLine($"Value in position 2 : {numbers[2]}");
 
 Console.WriteLine($"Print the value before the last value of array : Length - 2 : ^2 : {numbers[^2]}");
 
-
 Console.ReadKey();
+
+
+public class Exercise
+    {
+        public List<string> GetOnlyUpperCaseWords(List<string> words)
+        {
+            List<string> result = new List<string>();
+    
+            foreach(string word in words)
+            {
+                if (word.Equals(word.ToUpperInvariant()) && !result.Contains(word))
+                {
+                    result.Add(word);
+                }
+            }
+            
+            return result;
+        }
+    }
 
 
 // 
