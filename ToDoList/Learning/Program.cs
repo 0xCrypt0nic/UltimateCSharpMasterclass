@@ -8,13 +8,13 @@ Console.ReadKey();
 
 class Rectangle
 {
-    readonly int Width;
-    readonly int Height;
+    public int Width { get; set; }
+    public int Height { get; set; }
 
-    public Rectangle(int _width, int _height)
+    public Rectangle(int width, int height)
     {
-        Width = _width;
-        Height = _height;
+        Width = width;
+        Height = height;
     }
 
     public string ShowRectangleInfos() => $"Rectangle infos : width {Width}, height {Height}";
