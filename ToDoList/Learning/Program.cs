@@ -17,18 +17,9 @@ class Rectangle
         Height = _height;
     }
 
-    public string ShowRectangleInfos()
-    {
-        return $"Rectangle infos : width {Width}, height {Height}";
-    }
+    public string ShowRectangleInfos() => $"Rectangle infos : width {Width}, height {Height}";
 
-    public int CalculateArea()
-    {
-        return Width * Height;
-    }
+    public int CalculateArea() => Width * Height;
 
-    public int CalculatePerimeter()
-    {
-        return 2 * Width + 2 * Height;
-    }
+    public int CalculatePerimeter() => 2 * Width + 2 * Height;
 }
