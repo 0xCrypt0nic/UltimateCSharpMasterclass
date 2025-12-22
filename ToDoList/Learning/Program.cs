@@ -1,17 +1,34 @@
 ﻿Rectangle rectangle1 = new Rectangle(5, 10);
-Console.WriteLine($"Rectangle infos : width {rectangle1.width}, height {rectangle1.height}");
+Console.WriteLine(rectangle1.ShowRectangleInfos());
+Console.WriteLine($"Perimeter is : {rectangle1.CalculatePerimeter()}");
+Console.WriteLine($"Area is : {rectangle1.CalculateArea()}");
 
 
 Console.ReadKey();
 
 class Rectangle
 {
-    public int width;
-    public int height;
+    readonly int Width;
+    readonly int Height;
 
     public Rectangle(int _width, int _height)
     {
-        width = _width;
-        height = _height;
+        Width = _width;
+        Height = _height;
+    }
+
+    public string ShowRectangleInfos()
+    {
+        return $"Rectangle infos : width {Width}, height {Height}";
+    }
+
+    public int CalculateArea()
+    {
+        return Width * Height;
+    }
+
+    public int CalculatePerimeter()
+    {
+        return 2 * Width + 2 * Height;
     }
 }
