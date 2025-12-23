@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BreakingSRP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eecb641b35de45ddb5b4639ab4d1c3ece9ac7d73")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc0caa50e026c8904c10de37f9cf37fe600fda7f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BreakingSRP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BreakingSRP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

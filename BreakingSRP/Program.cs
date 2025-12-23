@@ -1,9 +1,12 @@
 ﻿var names = new Names();
-var path = names.BuildFilePath();
+var path = new NamesFilePathBuilder().BuildFilePath();
+var stringsTextualRepo = new StringsTextualRepository();
+
 if (File.Exists(path))
 {
     Console.WriteLine("Names file already exists, Loading names.");
-    names.ReadFromTextFile();
+    var stringsFromFile = stringsTextualRepo.Read(path);
+    names.AddNames(stringsFromFile);
 }
 else
 {
@@ -16,10 +19,10 @@ else
     names.AddName("123 definitely not a valid name");
 
     Console.WriteLine("Saving names to a file.");
-    names.WriteToTextFile();
+    stringsTextualRepo.Write(path, names.All);
 }
 
-Console.WriteLine(names.Format());
+Console.WriteLine(new NamesFormatter().Format(names.All));
 Console.ReadKey();
 
 class StringsTextualRepository
@@ -33,7 +36,7 @@ class StringsTextualRepository
 
     public void Write(string filePath, List<string> strings)
     {
-        File.WriteAllText(filePath, strings.Join(Separator, strings));
+        File.WriteAllText(filePath, string.Join(Separator, strings));
     }
 }
 
@@ -48,28 +51,41 @@ class NamesValidator()
     }
 }
 
+class NamesFilePathBuilder
+{
+    public string BuildFilePath()
+    {
+        return "names.txt";
+    }
+}
+
+class NamesFormatter
+{
+    public string Format(List<string> names)
+    {
+        return string.Join(Environment.NewLine, names);
+    }
+}
 
 class Names
 {
 
-    private List<string> _names = new List<string>();
+    public List<string> All { get; } = new List<string>();
     private readonly NamesValidator _namesValidator = new NamesValidator();
+
+    public void AddNames(List<string> stringsFromFile)
+    {
+        foreach (string name in stringsFromFile)
+        {
+            AddName(name);
+        }
+    }
 
     public void AddName(string name)
     {
         if (_namesValidator.IsValid(name))
         {
-            _names.Add(name);
+            All.Add(name);
         }
-    }
-
-    public string BuildFilePath()
-    {
-        return "names.txt";
-    }
-
-    public string Format()
-    {
-        return string.Join(Environment.NewLine, _names);
     }
 }
