@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Hello !");
+﻿using System.Net.NetworkInformation;
+
+Console.WriteLine("Hello !");
 
 // Input for two parameters of calculator
 
@@ -19,15 +21,15 @@ string choice = Console.ReadLine().ToUpper();
 
 if (choice.Equals("A"))
 {
-    Console.WriteLine($"{number1} + {number2} = {number1 + number2}");
+    Console.WriteLine($"{number1} + {number2} = {Calculator.Add(number1, number2)}");
 }
 else if (choice.Equals("S"))
 {
-    Console.WriteLine($"{number1} - {number2} = {number1 - number2}");
+    Console.WriteLine($"{number1} - {number2} = {Calculator.Subtract(number1, number2)}");
 }
 else if (choice.Equals("M"))
 {
-    Console.WriteLine($"{number1} * {number2} = {number1 * number2}");
+    Console.WriteLine($"{number1} * {number2} = {Calculator.Multiply(number1, number2)}");
 }
 else
 {
@@ -37,3 +39,10 @@ else
 Console.WriteLine("Press any key to close");
 var close = Console.ReadKey();
 return;
+
+static class Calculator
+{
+    public static int Add(int a, int b) => a + b;
+    public static int Subtract(int a, int b) => a - b;
+    public static int Multiply(int a, int b) => a * b;
+}
