@@ -1,6 +1,7 @@
 ﻿using BreakingSRP.DataAccess;
 using BreakingSRP;
 
+
 var names = new Names();
 var path = new NamesFilePathBuilder().BuildFilePath();
 var stringsTextualRepo = new StringsTextualRepository();
