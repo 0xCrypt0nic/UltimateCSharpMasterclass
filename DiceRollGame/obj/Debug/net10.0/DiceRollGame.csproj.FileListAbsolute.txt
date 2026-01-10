@@ -1,0 +1,15 @@
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/bin/Debug/net10.0/DiceRollGame
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/bin/Debug/net10.0/DiceRollGame.deps.json
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/bin/Debug/net10.0/DiceRollGame.runtimeconfig.json
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/bin/Debug/net10.0/DiceRollGame.dll
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/bin/Debug/net10.0/DiceRollGame.pdb
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/obj/Debug/net10.0/DiceRollGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/obj/Debug/net10.0/DiceRollGame.AssemblyInfoInputs.cache
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/obj/Debug/net10.0/DiceRollGame.AssemblyInfo.cs
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/obj/Debug/net10.0/DiceRollGame.csproj.CoreCompileInputs.cache
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/obj/Debug/net10.0/DiceRollGame.sourcelink.json
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/obj/Debug/net10.0/DiceRollGame.dll
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/obj/Debug/net10.0/refint/DiceRollGame.dll
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/obj/Debug/net10.0/DiceRollGame.pdb
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/obj/Debug/net10.0/DiceRollGame.genruntimeconfig.cache
+/Users/ngdev/Training/UltimateCSharpMasterclass/DiceRollGame/obj/Debug/net10.0/ref/DiceRollGame.dll
